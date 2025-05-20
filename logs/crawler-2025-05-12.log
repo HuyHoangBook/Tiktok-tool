@@ -1,0 +1,190 @@
+[13:39:56] [INFO] Starting TikTok crawler
+[13:39:56] [INFO] Connected to MongoDB
+[13:39:58] [INFO] Browser setup completed
+[13:39:58] [INFO] Page created successfully
+[13:39:58] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[13:40:41] [INFO] Found 194 videos, will process 2
+[13:40:41] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[14:18:18] [INFO] Starting TikTok crawler
+[14:18:19] [INFO] Connected to MongoDB
+[14:18:20] [INFO] Browser setup completed
+[14:18:20] [INFO] Page created successfully
+[14:18:20] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[14:19:03] [INFO] Found 194 videos, will process 2
+[14:19:03] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[14:19:03] [INFO] Video already exists in database: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[14:19:03] [INFO] Processing video 2/2: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[14:19:45] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[14:19:45] [INFO] Found 0 comments with replies
+[14:19:45] [INFO] Waiting 5000ms before next video...
+[14:19:50] [INFO] Waiting 10000ms before next profile...
+[14:46:55] [INFO] Starting TikTok crawler
+[14:46:56] [INFO] Connected to MongoDB
+[14:46:56] [INFO] Browser setup completed
+[14:46:57] [INFO] Page created successfully
+[14:46:57] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[14:47:54] [INFO] Found 99 videos, will process 2
+[14:47:54] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[14:47:54] [INFO] Video already exists in database: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[14:47:54] [INFO] Processing video 2/2: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[14:47:54] [INFO] Video already exists in database: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[14:47:54] [INFO] Waiting 10000ms before next profile...
+[14:48:04] [INFO] Crawling completed successfully!
+[14:48:04] [INFO] Closing browser...
+[14:48:05] [INFO] Browser closed
+[14:48:58] [INFO] Starting TikTok crawler
+[14:48:58] [INFO] Connected to MongoDB
+[14:48:59] [INFO] Browser setup completed
+[14:49:00] [INFO] Page created successfully
+[14:49:00] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[14:49:38] [INFO] Found 194 videos, will process 2
+[14:49:38] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[14:52:28] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[14:52:28] [INFO] Found 0 comments with replies
+[14:52:28] [INFO] Waiting 5000ms before next video...
+[14:52:33] [INFO] Processing video 2/2: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[15:05:01] [INFO] Starting TikTok crawler
+[15:05:02] [INFO] Connected to MongoDB
+[15:05:03] [INFO] Browser setup completed
+[15:05:03] [INFO] Page created successfully
+[15:05:03] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[15:05:44] [INFO] Found 194 videos, will process 2
+[15:05:44] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:05:44] [INFO] Video already exists in database: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:05:44] [INFO] Processing video 2/2: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[15:05:44] [INFO] Video already exists in database: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[15:05:44] [INFO] Waiting 10000ms before next profile...
+[15:05:54] [INFO] Crawling completed successfully!
+[15:05:54] [INFO] Closing browser...
+[15:05:55] [INFO] Browser closed
+[15:06:10] [INFO] Starting TikTok crawler
+[15:06:10] [INFO] Connected to MongoDB
+[15:06:33] [INFO] Browser setup completed
+[15:06:33] [INFO] Page created successfully
+[15:06:33] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[15:07:12] [INFO] Found 194 videos, will process 2
+[15:07:12] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:09:15] [INFO] Starting TikTok crawler
+[15:09:16] [INFO] Connected to MongoDB
+[15:09:19] [INFO] Browser setup completed
+[15:09:19] [INFO] Page created successfully
+[15:09:19] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[15:09:57] [INFO] Found 194 videos, will process 2
+[15:09:57] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:09:57] [INFO] Video already exists in database: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:09:57] [INFO] Processing video 2/2: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[15:18:48] [INFO] Starting TikTok crawler
+[15:18:49] [INFO] Connected to MongoDB
+[15:18:57] [INFO] Browser setup completed
+[15:18:57] [INFO] Page created successfully
+[15:18:57] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[15:19:41] [INFO] Found 194 videos, will process 2
+[15:19:41] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:20:36] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:20:36] [INFO] Found 0 comments with replies
+[15:20:36] [INFO] Waiting 5000ms before next video...
+[15:26:42] [INFO] Starting TikTok crawler
+[15:26:45] [INFO] Connected to MongoDB
+[15:26:52] [INFO] Browser setup completed
+[15:26:52] [INFO] Page created successfully
+[15:26:52] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[15:27:30] [INFO] Found 194 videos, will process 2
+[15:27:30] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:31:16] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:31:16] [INFO] Found 0 comments with replies
+[15:31:16] [INFO] Waiting 5000ms before next video...
+[15:31:21] [INFO] Processing video 2/2: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[15:36:30] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[15:36:30] [INFO] Found 0 comments with replies
+[15:36:30] [INFO] Waiting 5000ms before next video...
+[15:36:35] [INFO] Waiting 10000ms before next profile...
+[15:36:45] [INFO] Crawling completed successfully!
+[15:36:45] [INFO] Closing browser...
+[15:36:46] [INFO] Browser closed
+[15:38:30] [INFO] Starting TikTok crawler
+[15:38:31] [INFO] Connected to MongoDB
+[15:38:36] [INFO] Browser setup completed
+[15:38:36] [INFO] Page created successfully
+[15:38:36] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[15:39:14] [INFO] Found 194 videos, will process 2
+[15:39:14] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:40:51] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:40:52] [INFO] Found 0 comments with replies
+[15:40:52] [INFO] Waiting 5000ms before next video...
+[15:40:57] [INFO] Processing video 2/2: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[15:43:13] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[15:43:13] [INFO] Found 0 comments with replies
+[15:43:13] [INFO] Waiting 5000ms before next video...
+[15:43:18] [INFO] Waiting 10000ms before next profile...
+[15:43:28] [INFO] Crawling completed successfully!
+[15:43:28] [INFO] Closing browser...
+[15:43:29] [INFO] Browser closed
+[15:52:54] [INFO] Starting TikTok crawler
+[15:52:54] [INFO] Connected to MongoDB
+[15:52:55] [INFO] Browser setup completed
+[15:52:55] [INFO] Page created successfully
+[15:52:55] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[15:53:39] [INFO] Found 194 videos, will process 2
+[15:53:39] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:55:40] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:55:40] [INFO] Exporting video to Google Sheet: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[15:58:37] [INFO] Starting TikTok crawler
+[15:58:39] [INFO] Connected to MongoDB
+[15:58:40] [INFO] Browser setup completed
+[15:58:40] [INFO] Page created successfully
+[15:58:40] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[15:59:19] [INFO] Found 194 videos, will process 2
+[15:59:19] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[16:01:24] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[16:01:24] [INFO] Exporting video to Google Sheet: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[16:01:25] [INFO] Successfully exported video to Google Sheet: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[16:01:25] [ERROR] Error processing video https://www.tiktok.com/@fahasa_official/video/7499099748796730631: Client must be connected before running operations
+[16:01:25] [INFO] Waiting 5000ms before next video...
+[16:01:30] [INFO] Processing video 2/2: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[16:01:30] [ERROR] Error processing video https://www.tiktok.com/@fahasa_official/video/7262685132820172038: Client must be connected before running operations
+[16:01:30] [INFO] Waiting 5000ms before next video...
+[16:01:35] [INFO] Waiting 10000ms before next profile...
+[16:01:45] [INFO] Crawling completed successfully!
+[16:01:45] [INFO] Exporting all videos to Google Sheet...
+[16:04:46] [INFO] Starting TikTok crawler
+[16:04:47] [INFO] Connected to MongoDB
+[16:04:49] [INFO] Browser setup completed
+[16:04:49] [INFO] Page created successfully
+[16:04:49] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[16:05:30] [ERROR] Attempt 1/3 failed for Profile crawling: https://www.tiktok.com/@fahasa_official: Protocol error (Page.bringToFront): Session closed. Most likely the page has been closed.
+[16:05:30] [INFO] Waiting 1000ms before retry...
+[16:05:36] [INFO] Starting TikTok crawler
+[16:05:39] [INFO] Connected to MongoDB
+[16:05:39] [INFO] Browser setup completed
+[16:05:39] [INFO] Page created successfully
+[16:05:39] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[16:06:18] [INFO] Found 194 videos, will process 2
+[16:06:18] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[16:08:09] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[16:08:09] [INFO] Exporting video to Google Sheet: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[16:08:10] [INFO] Successfully exported video to Google Sheet: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[16:08:10] [ERROR] Error processing video https://www.tiktok.com/@fahasa_official/video/7499099748796730631: Client must be connected before running operations
+[16:08:10] [INFO] Waiting 5000ms before next video...
+[16:08:15] [INFO] Processing video 2/2: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[16:08:15] [ERROR] Error processing video https://www.tiktok.com/@fahasa_official/video/7262685132820172038: Client must be connected before running operations
+[16:08:16] [INFO] Waiting 5000ms before next video...
+[16:08:59] [INFO] Starting TikTok crawler
+[16:09:00] [INFO] Connected to MongoDB
+[16:09:00] [INFO] Browser setup completed
+[16:09:00] [INFO] Page created successfully
+[16:09:00] [INFO] Processing profile: https://www.tiktok.com/@fahasa_official
+[16:09:38] [INFO] Found 68 videos, will process 2
+[16:09:38] [INFO] Processing video 1/2: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[16:09:38] [INFO] Video already exists in database: https://www.tiktok.com/@fahasa_official/video/7499099748796730631
+[16:09:38] [INFO] Processing video 2/2: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[16:11:51] [INFO] Successfully crawled video: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[16:11:51] [INFO] Exporting video to Google Sheet: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[16:11:52] [INFO] Successfully exported video to Google Sheet: https://www.tiktok.com/@fahasa_official/video/7262685132820172038
+[16:11:52] [ERROR] Error processing video https://www.tiktok.com/@fahasa_official/video/7262685132820172038: Client must be connected before running operations
+[16:11:52] [INFO] Waiting 5000ms before next video...
+[16:11:57] [INFO] Waiting 10000ms before next profile...
+[16:12:07] [INFO] Crawling completed successfully!
+[16:12:07] [INFO] Exporting all videos to Google Sheet...
+[16:12:11] [INFO] Successfully exported all videos to Google Sheet
+[16:12:11] [INFO] Closing browser...
+[16:12:12] [INFO] Browser closed

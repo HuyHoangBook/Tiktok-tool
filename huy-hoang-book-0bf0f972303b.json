@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "huy-hoang-book",
+  "private_key_id": "0bf0f972303bec9de7ac20c2dfdad9068b4faae9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8aYcAEwnlPhsr\n0SjDF83cysIvAi1LHNp7k76AJFfKD1Of/APn9o4SFoUkC1nkVAZYJEZSSYlfoyL9\npwtchY9dAYrvWFmwKkYK7WMSoESNmcv8MXrKyl6NxqVDtAZYrMiSpU8LazI8e6Cf\njS93LVRLaR0FQZ98rmtlq8hY3WUY4KT7f1oJ75MEIEmOTTpQJFE4Fm+3g6ndXAae\nOggIQryDG1QhV+G8EOAo5VEqJagUZ+vE4TfSS79VNcYtPpuSVgqralQ7ihpwRq6m\ny4bVRmyzRyrvId2Um0MdLNoNQpPsHm9pc8aDp8h8qpsncysbola0P9aGF2PpUcU8\nba83cmg/AgMBAAECggEAEJJG2EKpwKVv61stTCIjA56RFLm1dSFNCsh0XWiU5hs8\nqNoYF9taJIzML17mNvcNoHappAwpY9Ar6tu52+yNWZ9MnSo2p+VtSAHCuyfTJRHY\nB07syhBMNQkPORSzkty46W5WX56RNRD55X6b+aNILOJ1CyTPRmlAM0Q4I1oZoxCG\nrc5r2ZiPYH/8//99A+rUyVuS+47NxEbJG6vhzUqwmQDf3RW+5QeUW4Mb7oNcHH72\nXeftM2vJYNT4WWLTlr1+AxMJFbplroAMsHYgONWf3eFmHYgxW9Sis7JGS2ENNOM7\n6FvrW8GFf672Mvm6Up9GpUKQySMWmv9aEwmjCM6ICQKBgQD/p1brPpKoHHLdFpjp\nNH9Ik51kB7LY9vGO5XWkLNuNbv6/cvSfDq8H24zcm3CNZLr+/X3Nlkvmwye9L07P\nE31BFElhyKgrRIbXFcoa5QynrggeAbiUsNAF4EcTEUEzfJaoOwTDe9gh5sEq78y9\no+fYrCrcSh310Al8BEPEPx02SQKBgQC8qt5Ymi4o9/Ibe3rci24Mtm3S5lde9OoI\nSSbrg59bB+CV7TJbIuBKtEXGZ2eGc6Q9slEEITvv9pEO57kGVQlTihlWjMDnJOv8\npJAFfQMamlG53zzJ1waOzRkWtmVaOHvkXREdUn0GbPkN81UYbL1M9FEFWb5buv81\nsptFCm2KRwKBgARuciNBwmkHlTYf3iasskgfxuqk94SrQySm9ZMS8/tPoTrQU00u\ng/ou5BIu35ST2mnxGu0lXctyNo4g88zDGbi3EU6Qm9mkJnIz/nzY249MhPeAMCLj\nrbdsW88IzYiG8FWaMErzKpvr1A1aesIOxUYMNfH7lulb4c40hLgyH9+BAoGBAJ86\nmmMu5Mxgzm2RXlTqPBvwj2nSS2Tx0N7jVjyonoKGeG4wfTJbke6ajNTxCnd3++Ky\nLxwMLHjOoQhyWz7T4AYoZFAehOPPzncwL/jh1A/MtDLqDHTQzFETGhyIHavyReWr\nAjm8F5anu96hQm1VwMJE5GheoIDspl2cetze+yobAoGBAOH37XGypv0YM3rQQFsQ\nDqMAm+mu4ON6kdlq6ZUdIiRhHe1qN0tqJv7pW0ONXatmQOjgRBd9wwdHBMSLR0hq\nYRdDl/eIGuEs2FTZ/fubQ7CpCpYG+7aKRMc+C1SGBlveMp+dM3e8RYnDxNTJgrXz\nfjQLNv4dwSg0iFiGAroDzjjX\n-----END PRIVATE KEY-----\n",
+  "client_email": "drive-storage-service@huy-hoang-book.iam.gserviceaccount.com",
+  "client_id": "102033608533485757426",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/drive-storage-service%40huy-hoang-book.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
