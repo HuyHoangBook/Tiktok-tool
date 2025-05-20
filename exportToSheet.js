@@ -69,33 +69,68 @@ async function exportVideoToSheet(videoUrl) {
     const comments = await Comment.find({ video_id: video._id });
     console.log(`Found ${comments.length} comments for video ${videoUrl}`);
 
-    // Format comment details as a string
-    const commentDetails = comments.map(comment => {
-      const prefix = comment.is_reply ? '    ↳ ' : '';
-      return `${prefix}${comment.author}: ${comment.content} (👍 ${comment.likes})`;
-    }).join('\n');
-
-    // Prepare row data
-    const rowData = [
-      video.channel,
-      video.title,
-      video.hashtags.join(', '),
-      video.url,
-      video.likes.toString(),
-      video.shared.toString(),
-      video.saved.toString(),
-      video.comments_count.toString(),
-      commentDetails
-    ];
+    // Prepare rows data - one row per comment
+    const rows = [];
+    
+    // If no comments, create at least one row with video data
+    if (comments.length === 0) {
+      rows.push([
+        video.url,                     // URL
+        video.channel,                 // Channel URL
+        video.hashtags.join(', '),     // Hashtags
+        video.title,                   // Title
+        video.likes.toString(),        // Likes
+        video.comments_count.toString(), // Comments
+        '',                            // Comment Author (empty)
+        '',                            // Comment Text (empty)
+        '',                            // Comment Likes (empty)
+        ''                             // Comment Date (empty)
+      ]);
+    } else {
+      // Add rows for comments
+      for (let i = 0; i < comments.length; i++) {
+        const comment = comments[i];
+        
+        if (i === 0) {
+          // First comment row includes all video data
+          rows.push([
+            video.url,                     // URL
+            video.channel,                 // Channel URL
+            video.hashtags.join(', '),     // Hashtags
+            video.title,                   // Title
+            video.likes.toString(),        // Likes
+            video.comments_count.toString(), // Comments
+            comment.author,                // Comment Author
+            comment.content,               // Comment Text
+            comment.likes.toString(),      // Comment Likes
+            comment.date                   // Comment Date
+          ]);
+        } else {
+          // Subsequent comment rows have empty video data
+          rows.push([
+            '',                            // URL (empty for subsequent comments)
+            '',                            // Channel URL (empty for subsequent comments)
+            '',                            // Hashtags (empty for subsequent comments)
+            '',                            // Title (empty for subsequent comments)
+            '',                            // Likes (empty for subsequent comments)
+            '',                            // Comments (empty for subsequent comments)
+            comment.author,                // Comment Author
+            comment.content,               // Comment Text
+            comment.likes.toString(),      // Comment Likes
+            comment.date                   // Comment Date
+          ]);
+        }
+      }
+    }
 
     // Append data to the sheet
     await sheetsApi.spreadsheets.values.append({
       spreadsheetId: SPREADSHEET_ID,
-      range: 'Trang tính1!A:I',
+      range: 'Trang tính1!A:J',
       valueInputOption: 'USER_ENTERED',
       insertDataOption: 'INSERT_ROWS',
       resource: {
-        values: [rowData]
+        values: rows
       }
     });
 
@@ -121,16 +156,16 @@ async function exportMultipleVideos(videoUrls) {
     // Clear the sheet first
     await sheetsApi.spreadsheets.values.clear({
       spreadsheetId: SPREADSHEET_ID,
-      range: 'Trang tính1!A2:I',
+      range: 'Trang tính1!A2:J',
     });
 
     // Add header row
     await sheetsApi.spreadsheets.values.update({
       spreadsheetId: SPREADSHEET_ID,
-      range: 'Trang tính1!A1:I1',
+      range: 'Trang tính1!A1:J1',
       valueInputOption: 'USER_ENTERED',
       resource: {
-        values: [['Channel', 'Title', 'Hashtags', 'Link Video', 'Likes', 'Shares', 'Saved', 'Comments', 'Comment Details']]
+        values: [['URL', 'Channel URL', 'Hashtag', 'Title', 'Likes', 'Comments', 'Comment Author', 'Comment Text', 'Comment Likes', 'Comment Date']]
       }
     });
 
@@ -144,48 +179,80 @@ async function exportMultipleVideos(videoUrls) {
       console.log(`Exporting ${videos.length} specified videos`);
     }
 
-    // Prepare batch data
-    const rows = [];
+    // Prepare all rows
+    const allRows = [];
     
     for (const video of videos) {
       // Fetch comments for the video
       const comments = await Comment.find({ video_id: video._id });
       console.log(`Found ${comments.length} comments for video ${video.url}`);
-
-      // Format comment details as a string
-      const commentDetails = comments.map(comment => {
-        const prefix = comment.is_reply ? '    ↳ ' : '';
-        return `${prefix}${comment.author}: ${comment.content} (👍 ${comment.likes})`;
-      }).join('\n');
-
-      // Add row data
-      rows.push([
-        video.channel,
-        video.title,
-        video.hashtags.join(', '),
-        video.url,
-        video.likes.toString(),
-        video.shared.toString(),
-        video.saved.toString(),
-        video.comments_count.toString(),
-        commentDetails
-      ]);
+      
+      // If no comments, create at least one row with video data
+      if (comments.length === 0) {
+        allRows.push([
+          video.url,                     // URL
+          video.channel,                 // Channel URL
+          video.hashtags.join(', '),     // Hashtags
+          video.title,                   // Title
+          video.likes.toString(),        // Likes
+          video.comments_count.toString(), // Comments
+          '',                            // Comment Author (empty)
+          '',                            // Comment Text (empty)
+          '',                            // Comment Likes (empty)
+          ''                             // Comment Date (empty)
+        ]);
+      } else {
+        // Add rows for comments
+        for (let i = 0; i < comments.length; i++) {
+          const comment = comments[i];
+          
+          if (i === 0) {
+            // First comment row includes all video data
+            allRows.push([
+              video.url,                     // URL
+              video.channel,                 // Channel URL
+              video.hashtags.join(', '),     // Hashtags
+              video.title,                   // Title
+              video.likes.toString(),        // Likes
+              video.comments_count.toString(), // Comments
+              comment.author,                // Comment Author
+              comment.content,               // Comment Text
+              comment.likes.toString(),      // Comment Likes
+              comment.date                   // Comment Date
+            ]);
+          } else {
+            // Subsequent comment rows have empty video data
+            allRows.push([
+              '',                            // URL (empty for subsequent comments)
+              '',                            // Channel URL (empty for subsequent comments)
+              '',                            // Hashtags (empty for subsequent comments)
+              '',                            // Title (empty for subsequent comments)
+              '',                            // Likes (empty for subsequent comments)
+              '',                            // Comments (empty for subsequent comments)
+              comment.author,                // Comment Author
+              comment.content,               // Comment Text
+              comment.likes.toString(),      // Comment Likes
+              comment.date                   // Comment Date
+            ]);
+          }
+        }
+      }
     }
 
     // Append all data to the sheet
-    if (rows.length > 0) {
+    if (allRows.length > 0) {
       await sheetsApi.spreadsheets.values.append({
         spreadsheetId: SPREADSHEET_ID,
-        range: 'Trang tính1!A2:I',
+        range: 'Trang tính1!A2:J',
         valueInputOption: 'USER_ENTERED',
         insertDataOption: 'INSERT_ROWS',
         resource: {
-          values: rows
+          values: allRows
         }
       });
     }
 
-    console.log(`Successfully exported ${rows.length} videos to Google Sheet`);
+    console.log(`Successfully exported ${allRows.length} rows to Google Sheet`);
   } catch (error) {
     console.error('Error exporting to Google Sheet:', error.message);
   } finally {
